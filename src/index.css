@@ -1,0 +1,34 @@
+*{
+  box-sizing: border-box;
+}
+html {
+  margin:0;
+  padding:0;
+  overflow-x:hidden;
+}
+
+body {
+  margin: 0;
+  background-image: url(../src/assets/bg-texture.png);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to bottom, #003366 0%, #ff99cc 100%);
+  position: relative
+ 
+  
+} 
+h1,h2,h3,h4{
+  color:white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* uBelow code is use ot kae cursor a hand like shape when taken close to trash icon or edit icon in notes tab  */
+i{
+  cursor:pointer;
+}
